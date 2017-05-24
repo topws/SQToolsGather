@@ -1,0 +1,15 @@
+
+//
+//  ToolsGatherPCH.pch
+//  SQToolsGather
+//
+//  Created by qianwei on 2017/5/24.
+//  Copyright © 2017年 qianwei. All rights reserved.
+//
+
+#ifndef ToolsGatherPCH_pch
+#define ToolsGatherPCH_pch
+
+#import "Utils.h"
+#import "ToolsHeader.h"
+#endif /* ToolsGatherPCH_pch */
