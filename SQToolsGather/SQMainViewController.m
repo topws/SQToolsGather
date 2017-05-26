@@ -29,7 +29,8 @@
 }
 -(NSArray *)dataArr{
     if (_dataArr == nil) {
-        _dataArr = @[@[@"图形绘制",@"SQDrawViewTools"]];
+        _dataArr = @[@[@"图形绘制",@"SQDrawViewTools"],
+                     @[@"图片选择器和查看器（输入框为表情键盘）",@"SQImagePickerViewController"]];
     }
     return _dataArr;
 }
@@ -69,4 +70,5 @@
     [self.navigationController pushViewController:classVc animated:YES];
     
 }
+
 @end

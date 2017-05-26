@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1060A7587E9C691B2121A04A /* libPods-SQToolsGatherTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 461C629FC16BBCC562A16F5E /* libPods-SQToolsGatherTests.a */; };
+		5A2E1E9181555DD07D3D8248 /* libPods-SQToolsGatherUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9476BD3C5BF3D86610FC38EC /* libPods-SQToolsGatherUITests.a */; };
+		B65C10F49FFE8DAD16EB952C /* libPods-SQToolsGather.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D549B4E18DDDF55D9AB14A2A /* libPods-SQToolsGather.a */; };
+		FC83FF3F1ED8389100751169 /* PagingCollectionViewLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = FC83FF3B1ED8389100751169 /* PagingCollectionViewLayout.m */; };
+		FC83FF401ED8389100751169 /* UIView+FrameExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = FC83FF3E1ED8389100751169 /* UIView+FrameExtension.m */; };
 		FCABEDF61ED56C6300755BFC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FCABEDF51ED56C6300755BFC /* main.m */; };
 		FCABEE011ED56C6300755BFC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FCABEE001ED56C6300755BFC /* Assets.xcassets */; };
 		FCABEE0F1ED56C6300755BFC /* SQToolsGatherTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FCABEE0E1ED56C6300755BFC /* SQToolsGatherTests.m */; };
@@ -15,11 +20,35 @@
 		FCABEE371ED56CF300755BFC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FCABEE2A1ED56CF300755BFC /* AppDelegate.m */; };
 		FCABEE381ED56CF300755BFC /* SQBaseNavgationController.m in Sources */ = {isa = PBXBuildFile; fileRef = FCABEE2C1ED56CF300755BFC /* SQBaseNavgationController.m */; };
 		FCABEE391ED56CF300755BFC /* SQBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FCABEE2E1ED56CF300755BFC /* SQBaseViewController.m */; };
-		FCABEE3A1ED56CF300755BFC /* SQDrawViewTools.m in Sources */ = {isa = PBXBuildFile; fileRef = FCABEE301ED56CF300755BFC /* SQDrawViewTools.m */; };
 		FCABEE3B1ED56CF300755BFC /* SQMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FCABEE321ED56CF300755BFC /* SQMainViewController.m */; };
 		FCABEE3C1ED56CF300755BFC /* SQMeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FCABEE341ED56CF300755BFC /* SQMeViewController.m */; };
 		FCABEE3D1ED56CF300755BFC /* SQTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = FCABEE361ED56CF300755BFC /* SQTabBarController.m */; };
 		FCABEE411ED56D1E00755BFC /* Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = FCABEE401ED56D1E00755BFC /* Utils.m */; };
+		FCABEE481ED5873900755BFC /* SQDrawViewTools.m in Sources */ = {isa = PBXBuildFile; fileRef = FCABEE471ED5873900755BFC /* SQDrawViewTools.m */; };
+		FCABEE4C1ED59D2100755BFC /* SQImagePickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FCABEE4B1ED59D2100755BFC /* SQImagePickerViewController.m */; };
+		FCABEE531ED59EB700755BFC /* GLSelectedAssetsModel.m in Sources */ = {isa = PBXBuildFile; fileRef = FCABEE4E1ED59EB700755BFC /* GLSelectedAssetsModel.m */; };
+		FCABEE541ED59EB700755BFC /* LxGridViewFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = FCABEE501ED59EB700755BFC /* LxGridViewFlowLayout.m */; };
+		FCABEE551ED59EB700755BFC /* TZTestCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FCABEE521ED59EB700755BFC /* TZTestCell.m */; };
+		FCABEE7C1ED67D1400755BFC /* TFHpple.m in Sources */ = {isa = PBXBuildFile; fileRef = FCABEE5B1ED67D1400755BFC /* TFHpple.m */; };
+		FCABEE7D1ED67D1400755BFC /* TFHppleElement.m in Sources */ = {isa = PBXBuildFile; fileRef = FCABEE5D1ED67D1400755BFC /* TFHppleElement.m */; };
+		FCABEE7E1ED67D1400755BFC /* XPathQuery.m in Sources */ = {isa = PBXBuildFile; fileRef = FCABEE5F1ED67D1400755BFC /* XPathQuery.m */; };
+		FCABEE7F1ED67D1400755BFC /* EmojiObject.m in Sources */ = {isa = PBXBuildFile; fileRef = FCABEE611ED67D1400755BFC /* EmojiObject.m */; };
+		FCABEE801ED67D1400755BFC /* EmotionNodeObject.m in Sources */ = {isa = PBXBuildFile; fileRef = FCABEE631ED67D1400755BFC /* EmotionNodeObject.m */; };
+		FCABEE811ED67D1400755BFC /* GLCommentCellBtn.m in Sources */ = {isa = PBXBuildFile; fileRef = FCABEE651ED67D1400755BFC /* GLCommentCellBtn.m */; };
+		FCABEE821ED67D1400755BFC /* NodeAtObject.m in Sources */ = {isa = PBXBuildFile; fileRef = FCABEE671ED67D1400755BFC /* NodeAtObject.m */; };
+		FCABEE831ED67D1400755BFC /* NodeAttributeObject.m in Sources */ = {isa = PBXBuildFile; fileRef = FCABEE691ED67D1400755BFC /* NodeAttributeObject.m */; };
+		FCABEE841ED67D1400755BFC /* NodeImageObject.m in Sources */ = {isa = PBXBuildFile; fileRef = FCABEE6B1ED67D1400755BFC /* NodeImageObject.m */; };
+		FCABEE851ED67D1400755BFC /* UITextField+YZEmotion.m in Sources */ = {isa = PBXBuildFile; fileRef = FCABEE6D1ED67D1400755BFC /* UITextField+YZEmotion.m */; };
+		FCABEE861ED67D1400755BFC /* UITextView+YZEmotion.m in Sources */ = {isa = PBXBuildFile; fileRef = FCABEE6F1ED67D1400755BFC /* UITextView+YZEmotion.m */; };
+		FCABEE871ED67D1400755BFC /* YZEmotionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FCABEE711ED67D1400755BFC /* YZEmotionCell.m */; };
+		FCABEE881ED67D1400755BFC /* YZEmotionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FCABEE721ED67D1400755BFC /* YZEmotionCell.xib */; };
+		FCABEE891ED67D1400755BFC /* YZEmotionKeyboard.m in Sources */ = {isa = PBXBuildFile; fileRef = FCABEE741ED67D1400755BFC /* YZEmotionKeyboard.m */; };
+		FCABEE8A1ED67D1400755BFC /* YZEmotionKeyboard.xib in Resources */ = {isa = PBXBuildFile; fileRef = FCABEE751ED67D1400755BFC /* YZEmotionKeyboard.xib */; };
+		FCABEE8B1ED67D1400755BFC /* YZEmotionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = FCABEE771ED67D1400755BFC /* YZEmotionManager.m */; };
+		FCABEE8C1ED67D1400755BFC /* YZEmotionPageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FCABEE791ED67D1400755BFC /* YZEmotionPageCell.m */; };
+		FCABEE8D1ED67D1400755BFC /* YZTextAttachment.m in Sources */ = {isa = PBXBuildFile; fileRef = FCABEE7B1ED67D1400755BFC /* YZTextAttachment.m */; };
+		FCABEE901ED6B23C00755BFC /* libxml2.2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = FCABEE8F1ED6B23C00755BFC /* libxml2.2.tbd */; };
+		FCABEE951ED6EC5E00755BFC /* AvatarImageModel.m in Sources */ = {isa = PBXBuildFile; fileRef = FCABEE941ED6EC5E00755BFC /* AvatarImageModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +69,19 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		14DC84D021188101FAFDD168 /* Pods-SQToolsGatherTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SQToolsGatherTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SQToolsGatherTests/Pods-SQToolsGatherTests.release.xcconfig"; sourceTree = "<group>"; };
+		2215495DF50834FCCE249E42 /* Pods-SQToolsGatherUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SQToolsGatherUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SQToolsGatherUITests/Pods-SQToolsGatherUITests.release.xcconfig"; sourceTree = "<group>"; };
+		45F2746A4874774F104AA8AF /* Pods-SQToolsGatherTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SQToolsGatherTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SQToolsGatherTests/Pods-SQToolsGatherTests.debug.xcconfig"; sourceTree = "<group>"; };
+		461C629FC16BBCC562A16F5E /* libPods-SQToolsGatherTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SQToolsGatherTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		81A783EC70EC79F865045D92 /* Pods-SQToolsGatherUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SQToolsGatherUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SQToolsGatherUITests/Pods-SQToolsGatherUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		9476BD3C5BF3D86610FC38EC /* libPods-SQToolsGatherUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SQToolsGatherUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB3AFEC9B0E8614BAAB9F701 /* Pods-SQToolsGather.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SQToolsGather.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SQToolsGather/Pods-SQToolsGather.debug.xcconfig"; sourceTree = "<group>"; };
+		C66533CCC239158B6B907FF2 /* Pods-SQToolsGather.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SQToolsGather.release.xcconfig"; path = "Pods/Target Support Files/Pods-SQToolsGather/Pods-SQToolsGather.release.xcconfig"; sourceTree = "<group>"; };
+		D549B4E18DDDF55D9AB14A2A /* libPods-SQToolsGather.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SQToolsGather.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC83FF3A1ED8389100751169 /* PagingCollectionViewLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PagingCollectionViewLayout.h; sourceTree = "<group>"; };
+		FC83FF3B1ED8389100751169 /* PagingCollectionViewLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PagingCollectionViewLayout.m; sourceTree = "<group>"; };
+		FC83FF3D1ED8389100751169 /* UIView+FrameExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+FrameExtension.h"; sourceTree = "<group>"; };
+		FC83FF3E1ED8389100751169 /* UIView+FrameExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+FrameExtension.m"; sourceTree = "<group>"; };
 		FCABEDF11ED56C6300755BFC /* SQToolsGather.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SQToolsGather.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FCABEDF51ED56C6300755BFC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		FCABEE001ED56C6300755BFC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -57,8 +99,6 @@
 		FCABEE2C1ED56CF300755BFC /* SQBaseNavgationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SQBaseNavgationController.m; sourceTree = "<group>"; };
 		FCABEE2D1ED56CF300755BFC /* SQBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SQBaseViewController.h; sourceTree = "<group>"; };
 		FCABEE2E1ED56CF300755BFC /* SQBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SQBaseViewController.m; sourceTree = "<group>"; };
-		FCABEE2F1ED56CF300755BFC /* SQDrawViewTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SQDrawViewTools.h; sourceTree = "<group>"; };
-		FCABEE301ED56CF300755BFC /* SQDrawViewTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SQDrawViewTools.m; sourceTree = "<group>"; };
 		FCABEE311ED56CF300755BFC /* SQMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SQMainViewController.h; sourceTree = "<group>"; };
 		FCABEE321ED56CF300755BFC /* SQMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SQMainViewController.m; sourceTree = "<group>"; };
 		FCABEE331ED56CF300755BFC /* SQMeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SQMeViewController.h; sourceTree = "<group>"; };
@@ -69,6 +109,54 @@
 		FCABEE401ED56D1E00755BFC /* Utils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Utils.m; sourceTree = "<group>"; };
 		FCABEE421ED56D4000755BFC /* ToolsGatherPCH.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ToolsGatherPCH.pch; sourceTree = "<group>"; };
 		FCABEE431ED56D5600755BFC /* ToolsHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ToolsHeader.h; sourceTree = "<group>"; };
+		FCABEE461ED5873900755BFC /* SQDrawViewTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SQDrawViewTools.h; sourceTree = "<group>"; };
+		FCABEE471ED5873900755BFC /* SQDrawViewTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SQDrawViewTools.m; sourceTree = "<group>"; };
+		FCABEE4A1ED59D2100755BFC /* SQImagePickerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SQImagePickerViewController.h; sourceTree = "<group>"; };
+		FCABEE4B1ED59D2100755BFC /* SQImagePickerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SQImagePickerViewController.m; sourceTree = "<group>"; };
+		FCABEE4D1ED59EB700755BFC /* GLSelectedAssetsModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLSelectedAssetsModel.h; sourceTree = "<group>"; };
+		FCABEE4E1ED59EB700755BFC /* GLSelectedAssetsModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GLSelectedAssetsModel.m; sourceTree = "<group>"; };
+		FCABEE4F1ED59EB700755BFC /* LxGridViewFlowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LxGridViewFlowLayout.h; sourceTree = "<group>"; };
+		FCABEE501ED59EB700755BFC /* LxGridViewFlowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LxGridViewFlowLayout.m; sourceTree = "<group>"; };
+		FCABEE511ED59EB700755BFC /* TZTestCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TZTestCell.h; sourceTree = "<group>"; };
+		FCABEE521ED59EB700755BFC /* TZTestCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TZTestCell.m; sourceTree = "<group>"; };
+		FCABEE5A1ED67D1400755BFC /* TFHpple.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TFHpple.h; sourceTree = "<group>"; };
+		FCABEE5B1ED67D1400755BFC /* TFHpple.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TFHpple.m; sourceTree = "<group>"; };
+		FCABEE5C1ED67D1400755BFC /* TFHppleElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TFHppleElement.h; sourceTree = "<group>"; };
+		FCABEE5D1ED67D1400755BFC /* TFHppleElement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TFHppleElement.m; sourceTree = "<group>"; };
+		FCABEE5E1ED67D1400755BFC /* XPathQuery.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XPathQuery.h; sourceTree = "<group>"; };
+		FCABEE5F1ED67D1400755BFC /* XPathQuery.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XPathQuery.m; sourceTree = "<group>"; };
+		FCABEE601ED67D1400755BFC /* EmojiObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EmojiObject.h; sourceTree = "<group>"; };
+		FCABEE611ED67D1400755BFC /* EmojiObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EmojiObject.m; sourceTree = "<group>"; };
+		FCABEE621ED67D1400755BFC /* EmotionNodeObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EmotionNodeObject.h; sourceTree = "<group>"; };
+		FCABEE631ED67D1400755BFC /* EmotionNodeObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EmotionNodeObject.m; sourceTree = "<group>"; };
+		FCABEE641ED67D1400755BFC /* GLCommentCellBtn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLCommentCellBtn.h; sourceTree = "<group>"; };
+		FCABEE651ED67D1400755BFC /* GLCommentCellBtn.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GLCommentCellBtn.m; sourceTree = "<group>"; };
+		FCABEE661ED67D1400755BFC /* NodeAtObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NodeAtObject.h; sourceTree = "<group>"; };
+		FCABEE671ED67D1400755BFC /* NodeAtObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NodeAtObject.m; sourceTree = "<group>"; };
+		FCABEE681ED67D1400755BFC /* NodeAttributeObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NodeAttributeObject.h; sourceTree = "<group>"; };
+		FCABEE691ED67D1400755BFC /* NodeAttributeObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NodeAttributeObject.m; sourceTree = "<group>"; };
+		FCABEE6A1ED67D1400755BFC /* NodeImageObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NodeImageObject.h; sourceTree = "<group>"; };
+		FCABEE6B1ED67D1400755BFC /* NodeImageObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NodeImageObject.m; sourceTree = "<group>"; };
+		FCABEE6C1ED67D1400755BFC /* UITextField+YZEmotion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextField+YZEmotion.h"; sourceTree = "<group>"; };
+		FCABEE6D1ED67D1400755BFC /* UITextField+YZEmotion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextField+YZEmotion.m"; sourceTree = "<group>"; };
+		FCABEE6E1ED67D1400755BFC /* UITextView+YZEmotion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextView+YZEmotion.h"; sourceTree = "<group>"; };
+		FCABEE6F1ED67D1400755BFC /* UITextView+YZEmotion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextView+YZEmotion.m"; sourceTree = "<group>"; };
+		FCABEE701ED67D1400755BFC /* YZEmotionCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YZEmotionCell.h; sourceTree = "<group>"; };
+		FCABEE711ED67D1400755BFC /* YZEmotionCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YZEmotionCell.m; sourceTree = "<group>"; };
+		FCABEE721ED67D1400755BFC /* YZEmotionCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YZEmotionCell.xib; sourceTree = "<group>"; };
+		FCABEE731ED67D1400755BFC /* YZEmotionKeyboard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YZEmotionKeyboard.h; sourceTree = "<group>"; };
+		FCABEE741ED67D1400755BFC /* YZEmotionKeyboard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YZEmotionKeyboard.m; sourceTree = "<group>"; };
+		FCABEE751ED67D1400755BFC /* YZEmotionKeyboard.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YZEmotionKeyboard.xib; sourceTree = "<group>"; };
+		FCABEE761ED67D1400755BFC /* YZEmotionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YZEmotionManager.h; sourceTree = "<group>"; };
+		FCABEE771ED67D1400755BFC /* YZEmotionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YZEmotionManager.m; sourceTree = "<group>"; };
+		FCABEE781ED67D1400755BFC /* YZEmotionPageCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YZEmotionPageCell.h; sourceTree = "<group>"; };
+		FCABEE791ED67D1400755BFC /* YZEmotionPageCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YZEmotionPageCell.m; sourceTree = "<group>"; };
+		FCABEE7A1ED67D1400755BFC /* YZTextAttachment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YZTextAttachment.h; sourceTree = "<group>"; };
+		FCABEE7B1ED67D1400755BFC /* YZTextAttachment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YZTextAttachment.m; sourceTree = "<group>"; };
+		FCABEE8F1ED6B23C00755BFC /* libxml2.2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libxml2.2.tbd; path = usr/lib/libxml2.2.tbd; sourceTree = SDKROOT; };
+		FCABEE911ED6B2CA00755BFC /* libresolv.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libresolv.tbd; path = usr/lib/libresolv.tbd; sourceTree = SDKROOT; };
+		FCABEE931ED6EC5E00755BFC /* AvatarImageModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AvatarImageModel.h; sourceTree = "<group>"; };
+		FCABEE941ED6EC5E00755BFC /* AvatarImageModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AvatarImageModel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +164,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FCABEE901ED6B23C00755BFC /* libxml2.2.tbd in Frameworks */,
+				B65C10F49FFE8DAD16EB952C /* libPods-SQToolsGather.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +173,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1060A7587E9C691B2121A04A /* libPods-SQToolsGatherTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -90,12 +181,65 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5A2E1E9181555DD07D3D8248 /* libPods-SQToolsGatherUITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7C185A2EE283D73B2E40848C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FCABEE911ED6B2CA00755BFC /* libresolv.tbd */,
+				FCABEE8F1ED6B23C00755BFC /* libxml2.2.tbd */,
+				D549B4E18DDDF55D9AB14A2A /* libPods-SQToolsGather.a */,
+				461C629FC16BBCC562A16F5E /* libPods-SQToolsGatherTests.a */,
+				9476BD3C5BF3D86610FC38EC /* libPods-SQToolsGatherUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FB6E126CD197AB1CC9445533 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BB3AFEC9B0E8614BAAB9F701 /* Pods-SQToolsGather.debug.xcconfig */,
+				C66533CCC239158B6B907FF2 /* Pods-SQToolsGather.release.xcconfig */,
+				45F2746A4874774F104AA8AF /* Pods-SQToolsGatherTests.debug.xcconfig */,
+				14DC84D021188101FAFDD168 /* Pods-SQToolsGatherTests.release.xcconfig */,
+				81A783EC70EC79F865045D92 /* Pods-SQToolsGatherUITests.debug.xcconfig */,
+				2215495DF50834FCCE249E42 /* Pods-SQToolsGatherUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		FC83FF341ED8373900751169 /* 项目常用工具分类 */ = {
+			isa = PBXGroup;
+			children = (
+				FC83FF391ED8389100751169 /* UICollectionView水平布局（cell横向添加） */,
+				FC83FF3C1ED8389100751169 /* UIView分类 */,
+			);
+			path = "项目常用工具分类";
+			sourceTree = "<group>";
+		};
+		FC83FF391ED8389100751169 /* UICollectionView水平布局（cell横向添加） */ = {
+			isa = PBXGroup;
+			children = (
+				FC83FF3A1ED8389100751169 /* PagingCollectionViewLayout.h */,
+				FC83FF3B1ED8389100751169 /* PagingCollectionViewLayout.m */,
+			);
+			path = "UICollectionView水平布局（cell横向添加）";
+			sourceTree = "<group>";
+		};
+		FC83FF3C1ED8389100751169 /* UIView分类 */ = {
+			isa = PBXGroup;
+			children = (
+				FC83FF3D1ED8389100751169 /* UIView+FrameExtension.h */,
+				FC83FF3E1ED8389100751169 /* UIView+FrameExtension.m */,
+			);
+			path = "UIView分类";
+			sourceTree = "<group>";
+		};
 		FCABEDE81ED56C6300755BFC = {
 			isa = PBXGroup;
 			children = (
@@ -103,6 +247,8 @@
 				FCABEE0D1ED56C6300755BFC /* SQToolsGatherTests */,
 				FCABEE181ED56C6300755BFC /* SQToolsGatherUITests */,
 				FCABEDF21ED56C6300755BFC /* Products */,
+				FB6E126CD197AB1CC9445533 /* Pods */,
+				7C185A2EE283D73B2E40848C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -121,18 +267,17 @@
 			children = (
 				FCABEE291ED56CF300755BFC /* AppDelegate.h */,
 				FCABEE2A1ED56CF300755BFC /* AppDelegate.m */,
-				FCABEE2B1ED56CF300755BFC /* SQBaseNavgationController.h */,
-				FCABEE2C1ED56CF300755BFC /* SQBaseNavgationController.m */,
-				FCABEE2D1ED56CF300755BFC /* SQBaseViewController.h */,
-				FCABEE2E1ED56CF300755BFC /* SQBaseViewController.m */,
-				FCABEE2F1ED56CF300755BFC /* SQDrawViewTools.h */,
-				FCABEE301ED56CF300755BFC /* SQDrawViewTools.m */,
 				FCABEE311ED56CF300755BFC /* SQMainViewController.h */,
 				FCABEE321ED56CF300755BFC /* SQMainViewController.m */,
 				FCABEE331ED56CF300755BFC /* SQMeViewController.h */,
 				FCABEE341ED56CF300755BFC /* SQMeViewController.m */,
 				FCABEE351ED56CF300755BFC /* SQTabBarController.h */,
 				FCABEE361ED56CF300755BFC /* SQTabBarController.m */,
+				FCABEE8E1ED6898400755BFC /* 归档和解档 */,
+				FCABEE571ED67CFE00755BFC /* 表情键盘（内含HTML表情解析） */,
+				FCABEE451ED586EF00755BFC /* 图形绘制 */,
+				FCABEE491ED59B4500755BFC /* 图片选择器和查看器 */,
+				FC83FF341ED8373900751169 /* 项目常用工具分类 */,
 				FCABEE001ED56C6300755BFC /* Assets.xcassets */,
 				FCABEE051ED56C6300755BFC /* Info.plist */,
 				FCABEDF41ED56C6300755BFC /* Supporting Files */,
@@ -143,10 +288,16 @@
 		FCABEDF41ED56C6300755BFC /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				FCABEE931ED6EC5E00755BFC /* AvatarImageModel.h */,
+				FCABEE941ED6EC5E00755BFC /* AvatarImageModel.m */,
 				FCABEE271ED56CC500755BFC /* LaunchScreen.storyboard */,
 				FCABEDF51ED56C6300755BFC /* main.m */,
 				FCABEE421ED56D4000755BFC /* ToolsGatherPCH.pch */,
 				FCABEE431ED56D5600755BFC /* ToolsHeader.h */,
+				FCABEE2B1ED56CF300755BFC /* SQBaseNavgationController.h */,
+				FCABEE2C1ED56CF300755BFC /* SQBaseNavgationController.m */,
+				FCABEE2D1ED56CF300755BFC /* SQBaseViewController.h */,
+				FCABEE2E1ED56CF300755BFC /* SQBaseViewController.m */,
 				FCABEE3F1ED56D1E00755BFC /* Utils.h */,
 				FCABEE401ED56D1E00755BFC /* Utils.m */,
 			);
@@ -171,6 +322,95 @@
 			path = SQToolsGatherUITests;
 			sourceTree = "<group>";
 		};
+		FCABEE451ED586EF00755BFC /* 图形绘制 */ = {
+			isa = PBXGroup;
+			children = (
+				FCABEE461ED5873900755BFC /* SQDrawViewTools.h */,
+				FCABEE471ED5873900755BFC /* SQDrawViewTools.m */,
+			);
+			path = "图形绘制";
+			sourceTree = "<group>";
+		};
+		FCABEE491ED59B4500755BFC /* 图片选择器和查看器 */ = {
+			isa = PBXGroup;
+			children = (
+				FCABEE4A1ED59D2100755BFC /* SQImagePickerViewController.h */,
+				FCABEE4B1ED59D2100755BFC /* SQImagePickerViewController.m */,
+				FCABEE4D1ED59EB700755BFC /* GLSelectedAssetsModel.h */,
+				FCABEE4E1ED59EB700755BFC /* GLSelectedAssetsModel.m */,
+				FCABEE4F1ED59EB700755BFC /* LxGridViewFlowLayout.h */,
+				FCABEE501ED59EB700755BFC /* LxGridViewFlowLayout.m */,
+				FCABEE511ED59EB700755BFC /* TZTestCell.h */,
+				FCABEE521ED59EB700755BFC /* TZTestCell.m */,
+			);
+			path = "图片选择器和查看器";
+			sourceTree = "<group>";
+		};
+		FCABEE571ED67CFE00755BFC /* 表情键盘（内含HTML表情解析） */ = {
+			isa = PBXGroup;
+			children = (
+				FCABEE581ED67D1400755BFC /* YZEmotionKeyboard */,
+			);
+			path = "表情键盘（内含HTML表情解析）";
+			sourceTree = "<group>";
+		};
+		FCABEE581ED67D1400755BFC /* YZEmotionKeyboard */ = {
+			isa = PBXGroup;
+			children = (
+				FCABEE591ED67D1400755BFC /* HMTL解析 */,
+				FCABEE601ED67D1400755BFC /* EmojiObject.h */,
+				FCABEE611ED67D1400755BFC /* EmojiObject.m */,
+				FCABEE621ED67D1400755BFC /* EmotionNodeObject.h */,
+				FCABEE631ED67D1400755BFC /* EmotionNodeObject.m */,
+				FCABEE641ED67D1400755BFC /* GLCommentCellBtn.h */,
+				FCABEE651ED67D1400755BFC /* GLCommentCellBtn.m */,
+				FCABEE661ED67D1400755BFC /* NodeAtObject.h */,
+				FCABEE671ED67D1400755BFC /* NodeAtObject.m */,
+				FCABEE681ED67D1400755BFC /* NodeAttributeObject.h */,
+				FCABEE691ED67D1400755BFC /* NodeAttributeObject.m */,
+				FCABEE6A1ED67D1400755BFC /* NodeImageObject.h */,
+				FCABEE6B1ED67D1400755BFC /* NodeImageObject.m */,
+				FCABEE6C1ED67D1400755BFC /* UITextField+YZEmotion.h */,
+				FCABEE6D1ED67D1400755BFC /* UITextField+YZEmotion.m */,
+				FCABEE6E1ED67D1400755BFC /* UITextView+YZEmotion.h */,
+				FCABEE6F1ED67D1400755BFC /* UITextView+YZEmotion.m */,
+				FCABEE701ED67D1400755BFC /* YZEmotionCell.h */,
+				FCABEE711ED67D1400755BFC /* YZEmotionCell.m */,
+				FCABEE721ED67D1400755BFC /* YZEmotionCell.xib */,
+				FCABEE731ED67D1400755BFC /* YZEmotionKeyboard.h */,
+				FCABEE741ED67D1400755BFC /* YZEmotionKeyboard.m */,
+				FCABEE751ED67D1400755BFC /* YZEmotionKeyboard.xib */,
+				FCABEE761ED67D1400755BFC /* YZEmotionManager.h */,
+				FCABEE771ED67D1400755BFC /* YZEmotionManager.m */,
+				FCABEE781ED67D1400755BFC /* YZEmotionPageCell.h */,
+				FCABEE791ED67D1400755BFC /* YZEmotionPageCell.m */,
+				FCABEE7A1ED67D1400755BFC /* YZTextAttachment.h */,
+				FCABEE7B1ED67D1400755BFC /* YZTextAttachment.m */,
+			);
+			path = YZEmotionKeyboard;
+			sourceTree = "<group>";
+		};
+		FCABEE591ED67D1400755BFC /* HMTL解析 */ = {
+			isa = PBXGroup;
+			children = (
+				FCABEE5A1ED67D1400755BFC /* TFHpple.h */,
+				FCABEE5B1ED67D1400755BFC /* TFHpple.m */,
+				FCABEE5C1ED67D1400755BFC /* TFHppleElement.h */,
+				FCABEE5D1ED67D1400755BFC /* TFHppleElement.m */,
+				FCABEE5E1ED67D1400755BFC /* XPathQuery.h */,
+				FCABEE5F1ED67D1400755BFC /* XPathQuery.m */,
+			);
+			name = "HMTL解析";
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		FCABEE8E1ED6898400755BFC /* 归档和解档 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "归档和解档";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -178,9 +418,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FCABEE1E1ED56C6300755BFC /* Build configuration list for PBXNativeTarget "SQToolsGather" */;
 			buildPhases = (
+				84B75085037A0AC063770F98 /* [CP] Check Pods Manifest.lock */,
 				FCABEDED1ED56C6300755BFC /* Sources */,
 				FCABEDEE1ED56C6300755BFC /* Frameworks */,
 				FCABEDEF1ED56C6300755BFC /* Resources */,
+				4A4F9505BBC57D495AB51339 /* [CP] Embed Pods Frameworks */,
+				70C0D401A9AF4B59F704032D /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -195,9 +438,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FCABEE211ED56C6300755BFC /* Build configuration list for PBXNativeTarget "SQToolsGatherTests" */;
 			buildPhases = (
+				3715F19526BA4C73715E3288 /* [CP] Check Pods Manifest.lock */,
 				FCABEE061ED56C6300755BFC /* Sources */,
 				FCABEE071ED56C6300755BFC /* Frameworks */,
 				FCABEE081ED56C6300755BFC /* Resources */,
+				593F881BE18944D53574E06F /* [CP] Embed Pods Frameworks */,
+				F613BD21E8B6EA4B32126AF0 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -213,9 +459,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FCABEE241ED56C6300755BFC /* Build configuration list for PBXNativeTarget "SQToolsGatherUITests" */;
 			buildPhases = (
+				AEFB4E66673C366BD3DF0A90 /* [CP] Check Pods Manifest.lock */,
 				FCABEE111ED56C6300755BFC /* Sources */,
 				FCABEE121ED56C6300755BFC /* Frameworks */,
 				FCABEE131ED56C6300755BFC /* Resources */,
+				9C00AEF581E8DC451F8F0E33 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -238,7 +486,7 @@
 				TargetAttributes = {
 					FCABEDF01ED56C6300755BFC = {
 						CreatedOnToolsVersion = 8.3;
-						DevelopmentTeam = SSJK4DGTL7;
+						DevelopmentTeam = X4738Q25LY;
 						ProvisioningStyle = Automatic;
 					};
 					FCABEE091ED56C6300755BFC = {
@@ -281,7 +529,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				FCABEE011ED56C6300755BFC /* Assets.xcassets in Resources */,
+				FCABEE8A1ED67D1400755BFC /* YZEmotionKeyboard.xib in Resources */,
 				FCABEE281ED56CC500755BFC /* LaunchScreen.storyboard in Resources */,
+				FCABEE881ED67D1400755BFC /* YZEmotionCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -301,19 +551,165 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		3715F19526BA4C73715E3288 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		4A4F9505BBC57D495AB51339 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SQToolsGather/Pods-SQToolsGather-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		593F881BE18944D53574E06F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SQToolsGatherTests/Pods-SQToolsGatherTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		70C0D401A9AF4B59F704032D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SQToolsGather/Pods-SQToolsGather-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		84B75085037A0AC063770F98 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		9C00AEF581E8DC451F8F0E33 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SQToolsGatherUITests/Pods-SQToolsGatherUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AEFB4E66673C366BD3DF0A90 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F613BD21E8B6EA4B32126AF0 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SQToolsGatherTests/Pods-SQToolsGatherTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		FCABEDED1ED56C6300755BFC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FCABEE801ED67D1400755BFC /* EmotionNodeObject.m in Sources */,
+				FC83FF3F1ED8389100751169 /* PagingCollectionViewLayout.m in Sources */,
+				FCABEE551ED59EB700755BFC /* TZTestCell.m in Sources */,
 				FCABEE411ED56D1E00755BFC /* Utils.m in Sources */,
+				FCABEE7E1ED67D1400755BFC /* XPathQuery.m in Sources */,
+				FCABEE831ED67D1400755BFC /* NodeAttributeObject.m in Sources */,
+				FCABEE481ED5873900755BFC /* SQDrawViewTools.m in Sources */,
+				FCABEE8D1ED67D1400755BFC /* YZTextAttachment.m in Sources */,
+				FCABEE7C1ED67D1400755BFC /* TFHpple.m in Sources */,
 				FCABEE3C1ED56CF300755BFC /* SQMeViewController.m in Sources */,
+				FCABEE871ED67D1400755BFC /* YZEmotionCell.m in Sources */,
 				FCABEE371ED56CF300755BFC /* AppDelegate.m in Sources */,
 				FCABEE381ED56CF300755BFC /* SQBaseNavgationController.m in Sources */,
 				FCABEE3D1ED56CF300755BFC /* SQTabBarController.m in Sources */,
+				FCABEE8B1ED67D1400755BFC /* YZEmotionManager.m in Sources */,
+				FCABEE811ED67D1400755BFC /* GLCommentCellBtn.m in Sources */,
+				FCABEE821ED67D1400755BFC /* NodeAtObject.m in Sources */,
+				FCABEE4C1ED59D2100755BFC /* SQImagePickerViewController.m in Sources */,
+				FCABEE7D1ED67D1400755BFC /* TFHppleElement.m in Sources */,
+				FCABEE8C1ED67D1400755BFC /* YZEmotionPageCell.m in Sources */,
 				FCABEDF61ED56C6300755BFC /* main.m in Sources */,
-				FCABEE3A1ED56CF300755BFC /* SQDrawViewTools.m in Sources */,
+				FCABEE861ED67D1400755BFC /* UITextView+YZEmotion.m in Sources */,
+				FCABEE541ED59EB700755BFC /* LxGridViewFlowLayout.m in Sources */,
+				FCABEE7F1ED67D1400755BFC /* EmojiObject.m in Sources */,
+				FCABEE531ED59EB700755BFC /* GLSelectedAssetsModel.m in Sources */,
 				FCABEE391ED56CF300755BFC /* SQBaseViewController.m in Sources */,
+				FCABEE851ED67D1400755BFC /* UITextField+YZEmotion.m in Sources */,
+				FCABEE951ED6EC5E00755BFC /* AvatarImageModel.m in Sources */,
+				FCABEE891ED67D1400755BFC /* YZEmotionKeyboard.m in Sources */,
+				FCABEE841ED67D1400755BFC /* NodeImageObject.m in Sources */,
+				FC83FF401ED8389100751169 /* UIView+FrameExtension.m in Sources */,
 				FCABEE3B1ED56CF300755BFC /* SQMainViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -446,38 +842,71 @@
 		};
 		FCABEE1F1ED56C6300755BFC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BB3AFEC9B0E8614BAAB9F701 /* Pods-SQToolsGather.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = SSJK4DGTL7;
+				DEVELOPMENT_TEAM = X4738Q25LY;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/SQToolsGather/ToolsGatherPCH.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_ROOT}/Headers/Public\"",
+					"\"${PODS_ROOT}/Headers/Public/MJExtension\"",
+					"\"${PODS_ROOT}/Headers/Public/TZImagePickerController\"",
+					"$(SDKROOT)/usr/include/libxml2",
+				);
 				INFOPLIST_FILE = SQToolsGather/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-l\"MJExtension\"",
+					"-lxml2",
+					"-l\"TZImagePickerController\"",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = czk.SQToolsGather;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = 1;
+				USER_HEADER_SEARCH_PATHS = "$(SDKROOT)/usr/include/libxml2";
 			};
 			name = Debug;
 		};
 		FCABEE201ED56C6300755BFC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C66533CCC239158B6B907FF2 /* Pods-SQToolsGather.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = SSJK4DGTL7;
+				DEVELOPMENT_TEAM = X4738Q25LY;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/SQToolsGather/ToolsGatherPCH.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_ROOT}/Headers/Public\"",
+					"\"${PODS_ROOT}/Headers/Public/MJExtension\"",
+					"\"${PODS_ROOT}/Headers/Public/TZImagePickerController\"",
+					"$(SDKROOT)/usr/include/libxml2",
+				);
 				INFOPLIST_FILE = SQToolsGather/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-l\"MJExtension\"",
+					"-lxml2",
+					"-l\"TZImagePickerController\"",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = czk.SQToolsGather;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = 1;
+				USER_HEADER_SEARCH_PATHS = "$(SDKROOT)/usr/include/libxml2";
 			};
 			name = Release;
 		};
 		FCABEE221ED56C6300755BFC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 45F2746A4874774F104AA8AF /* Pods-SQToolsGatherTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				DEVELOPMENT_TEAM = SSJK4DGTL7;
@@ -491,6 +920,7 @@
 		};
 		FCABEE231ED56C6300755BFC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 14DC84D021188101FAFDD168 /* Pods-SQToolsGatherTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				DEVELOPMENT_TEAM = SSJK4DGTL7;
@@ -504,6 +934,7 @@
 		};
 		FCABEE251ED56C6300755BFC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 81A783EC70EC79F865045D92 /* Pods-SQToolsGatherUITests.debug.xcconfig */;
 			buildSettings = {
 				DEVELOPMENT_TEAM = SSJK4DGTL7;
 				INFOPLIST_FILE = SQToolsGatherUITests/Info.plist;
@@ -516,6 +947,7 @@
 		};
 		FCABEE261ED56C6300755BFC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2215495DF50834FCCE249E42 /* Pods-SQToolsGatherUITests.release.xcconfig */;
 			buildSettings = {
 				DEVELOPMENT_TEAM = SSJK4DGTL7;
 				INFOPLIST_FILE = SQToolsGatherUITests/Info.plist;
@@ -545,6 +977,7 @@
 				FCABEE201ED56C6300755BFC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FCABEE211ED56C6300755BFC /* Build configuration list for PBXNativeTarget "SQToolsGatherTests" */ = {
 			isa = XCConfigurationList;
@@ -553,6 +986,7 @@
 				FCABEE231ED56C6300755BFC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FCABEE241ED56C6300755BFC /* Build configuration list for PBXNativeTarget "SQToolsGatherUITests" */ = {
 			isa = XCConfigurationList;
@@ -561,6 +995,7 @@
 				FCABEE261ED56C6300755BFC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -1,0 +1,32 @@
+PODS:
+  - IQKeyboardManager (4.0.8)
+  - Masonry (1.0.2)
+  - MJExtension (3.0.13)
+  - TZImagePickerController (1.7.8)
+  - YYCache (1.0.4)
+  - YYImage (1.0.4):
+    - YYImage/Core (= 1.0.4)
+  - YYImage/Core (1.0.4)
+  - YYWebImage (1.0.5):
+    - YYCache
+    - YYImage
+
+DEPENDENCIES:
+  - IQKeyboardManager (~> 4.0.8)
+  - Masonry (~> 1.0.2)
+  - MJExtension (~> 3.0.13)
+  - TZImagePickerController (~> 1.7.8)
+  - YYWebImage (~> 1.0.5)
+
+SPEC CHECKSUMS:
+  IQKeyboardManager: 1a8189fa153bf09044355ee0ad36826f6767e7f7
+  Masonry: 7c429b56da9d4ee0bbb3ed77a5ea710d6a5df39e
+  MJExtension: 5932755f451458eefa24239358817f8d291240c7
+  TZImagePickerController: 87a138ae5d585225aaa6c8abe2cface0f0ad19dd
+  YYCache: 8105b6638f5e849296c71f331ff83891a4942952
+  YYImage: 1e1b62a9997399593e4b9c4ecfbbabbf1d3f3b54
+  YYWebImage: 5f7f36aee2ae293f016d418c7d6ba05c4863e928
+
+PODFILE CHECKSUM: ca8e111e0addc8237cff3d2761c336f7eb1c1a06
+
+COCOAPODS: 1.0.1

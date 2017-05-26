@@ -8,6 +8,7 @@
 
 #import "AppDelegate.h"
 #import "SQTabBarController.h"
+#import "IQKeyboardManager.h"
 @interface AppDelegate ()
 
 @end
@@ -25,6 +26,8 @@
     self.window.rootViewController.view.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
     
+    [[IQKeyboardManager sharedManager] setEnable:YES];
+//    [[IQKeyboardManager sharedManager] setEnableAutoToolbar:NO];
     return YES;
 }
 

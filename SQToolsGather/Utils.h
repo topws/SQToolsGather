@@ -11,5 +11,5 @@
 @interface Utils : NSObject
 
 + (UIColor *) colorWithHexString: (NSString *) stringToConvert;
-
++ (UIImage *) snapshotScreenInView:(UIImage *)oldImage;
 @end

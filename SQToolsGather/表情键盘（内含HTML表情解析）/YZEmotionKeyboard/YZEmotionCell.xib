@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11542" systemVersion="15G1108" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="BqZ-hx-7rQ" customClass="YZEmotionCell">
+            <rect key="frame" x="0.0" y="0.0" width="62" height="70"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="62" height="70"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <button opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aWR-C5-FgM">
+                        <rect key="frame" x="0.0" y="0.0" width="62" height="40"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="40" id="kQX-xl-TDo"/>
+                        </constraints>
+                    </button>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5eY-NF-6gB">
+                        <rect key="frame" x="12.5" y="46" width="37.5" height="18"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="37.5" id="Xjz-sU-krH"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        <color key="textColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstItem="5eY-NF-6gB" firstAttribute="centerX" secondItem="aWR-C5-FgM" secondAttribute="centerX" id="6vX-PZ-TGf"/>
+                <constraint firstAttribute="trailing" secondItem="aWR-C5-FgM" secondAttribute="trailing" id="Ub5-Nm-lHA"/>
+                <constraint firstItem="aWR-C5-FgM" firstAttribute="leading" secondItem="BqZ-hx-7rQ" secondAttribute="leading" id="cOy-Ik-Ffc"/>
+                <constraint firstItem="5eY-NF-6gB" firstAttribute="top" secondItem="aWR-C5-FgM" secondAttribute="bottom" constant="6" id="i0x-qt-rqg"/>
+                <constraint firstItem="aWR-C5-FgM" firstAttribute="top" secondItem="BqZ-hx-7rQ" secondAttribute="top" id="lQk-eR-SsR"/>
+            </constraints>
+            <size key="customSize" width="62" height="70"/>
+            <connections>
+                <outlet property="BTNConsH" destination="kQX-xl-TDo" id="4Tz-7v-gri"/>
+                <outlet property="emotionButton" destination="aWR-C5-FgM" id="N3o-CQ-pwq"/>
+                <outlet property="emotionName" destination="5eY-NF-6gB" id="cdz-Rw-UXa"/>
+                <outlet property="nameConsW" destination="Xjz-sU-krH" id="ppp-qR-HpP"/>
+            </connections>
+            <point key="canvasLocation" x="32" y="62"/>
+        </collectionViewCell>
+    </objects>
+</document>

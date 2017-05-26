@@ -9,6 +9,7 @@
 #import "Utils.h"
 
 @implementation Utils
+//根据 16进制数字返回 UIColor
 + (UIColor *) colorWithHexString: (NSString *) stringToConvert
 {
     NSString *cString = [[stringToConvert stringByTrimmingCharactersInSet:[NSCharacterSet whitespaceAndNewlineCharacterSet]] uppercaseString];
@@ -44,5 +45,31 @@
                             blue:((CGFloat) b / 255.0f)
                            alpha:1.0f];
 }
-
+//图片选择后，进行绘制一个150*150的正方形图片
++ (UIImage *)snapshotScreenInView:(UIImage *)oldImage {
+    
+    CGFloat imageH = 150;
+    
+    CGFloat imageW = 150;
+    
+    UIView *backView = [[UIView alloc] initWithFrame:CGRectMake(0, 0, imageW, imageH)];
+    
+    backView.backgroundColor = [UIColor whiteColor];
+    
+    UIImageView *imageView = [[UIImageView alloc] initWithImage:oldImage];
+    imageView.contentMode = UIViewContentModeScaleAspectFill;
+    imageView.clipsToBounds = YES;
+    imageView.frame = CGRectMake(0, 0, imageW, imageH);
+    
+    [backView addSubview:imageView];
+    
+    UIGraphicsBeginImageContextWithOptions(backView.size, NO, [UIScreen mainScreen].scale);
+    CGRect rect = backView.frame;
+    [backView drawViewHierarchyInRect:rect afterScreenUpdates:YES];
+    
+    UIImage *image = UIGraphicsGetImageFromCurrentImageContext();
+    UIGraphicsEndImageContext();
+    
+    return image;
+}
 @end
