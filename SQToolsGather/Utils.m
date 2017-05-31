@@ -7,8 +7,14 @@
 //
 
 #import "Utils.h"
-
+#import "Reachability.h"
 @implementation Utils
++ (void)getCodeRunTime{
+    NSDate* tmpStartData = [NSDate date];
+    //You code here...
+    double deltaTime = [[NSDate date] timeIntervalSinceDate:tmpStartData];
+    NSLog(@"cost time = %f", deltaTime);
+}
 //根据 16进制数字返回 UIColor
 + (UIColor *) colorWithHexString: (NSString *) stringToConvert
 {
@@ -71,5 +77,9 @@
     UIGraphicsEndImageContext();
     
     return image;
+}
+
++(BOOL)isWifi{
+    return [Reachability isEnableWIFI];
 }
 @end

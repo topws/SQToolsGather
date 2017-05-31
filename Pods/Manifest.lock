@@ -1,7 +1,12 @@
 PODS:
+  - DACircularProgress (2.3.1)
   - IQKeyboardManager (4.0.8)
   - Masonry (1.0.2)
   - MJExtension (3.0.13)
+  - SDWebImage (4.0.0):
+    - SDWebImage/Core (= 4.0.0)
+  - SDWebImage/Core (4.0.0)
+  - SVProgressHUD (2.1.2)
   - TZImagePickerController (1.7.8)
   - YYCache (1.0.4)
   - YYImage (1.0.4):
@@ -12,21 +17,27 @@ PODS:
     - YYImage
 
 DEPENDENCIES:
+  - DACircularProgress (~> 2.3.1)
   - IQKeyboardManager (~> 4.0.8)
   - Masonry (~> 1.0.2)
   - MJExtension (~> 3.0.13)
+  - SDWebImage (~> 4.0.0)
+  - SVProgressHUD (~> 2.1.2)
   - TZImagePickerController (~> 1.7.8)
   - YYWebImage (~> 1.0.5)
 
 SPEC CHECKSUMS:
+  DACircularProgress: 4dd437c0fc3da5161cb289e07ac449493d41db71
   IQKeyboardManager: 1a8189fa153bf09044355ee0ad36826f6767e7f7
   Masonry: 7c429b56da9d4ee0bbb3ed77a5ea710d6a5df39e
   MJExtension: 5932755f451458eefa24239358817f8d291240c7
+  SDWebImage: 76a6348bdc74eb5a55dd08a091ef298e56b55e41
+  SVProgressHUD: c404a55d78acbeb7ebb78b76d3faf986475a6994
   TZImagePickerController: 87a138ae5d585225aaa6c8abe2cface0f0ad19dd
   YYCache: 8105b6638f5e849296c71f331ff83891a4942952
   YYImage: 1e1b62a9997399593e4b9c4ecfbbabbf1d3f3b54
   YYWebImage: 5f7f36aee2ae293f016d418c7d6ba05c4863e928
 
-PODFILE CHECKSUM: ca8e111e0addc8237cff3d2761c336f7eb1c1a06
+PODFILE CHECKSUM: 385ca6a169d8257139962428b3150f862d962bf8
 
 COCOAPODS: 1.0.1

@@ -9,7 +9,12 @@
 #import <UIKit/UIKit.h>
 
 @interface Utils : NSObject
-
+//16进制 颜色
 + (UIColor *) colorWithHexString: (NSString *) stringToConvert;
+//截屏
 + (UIImage *) snapshotScreenInView:(UIImage *)oldImage;
+//获取代码运行的时间
++ (void)getCodeRunTime;
+//是否 WiFi
++(BOOL)isWifi;
 @end

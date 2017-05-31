@@ -8,6 +8,9 @@ target 'SQToolsGather' do
   pod 'YYWebImage', '~> 1.0.5'
   pod 'Masonry', '~> 1.0.2'
   pod 'IQKeyboardManager', '~> 4.0.8'
+  pod 'DACircularProgress', '~> 2.3.1'
+  pod 'SVProgressHUD', '~> 2.1.2'
+  pod 'SDWebImage', '~> 4.0.0'
   target 'SQToolsGatherTests' do
     inherit! :search_paths
     # Pods for testing

@@ -17,7 +17,8 @@
 
 #import "TZImagePickerController.h"
 #import <Photos/Photos.h>
-
+#import "IDMPhotoBrowser.h"
+#import "Reachability.h"
 @interface SQImagePickerViewController ()<UITextViewDelegate,UICollectionViewDelegate,UICollectionViewDataSource>
 //输入框
 @property (nonatomic,strong)UITextView * contentView;
@@ -182,15 +183,40 @@
 //        GLSelectedAssetsModel * model = self.selectedAssetModels[indexPath.row];
 //        [self appendImageAttributeAtContentView:model];
         
-        //预览 图片
+        
+//        //预览 图片
+//        NSMutableArray * photos = [NSMutableArray array];
+//        for (GLSelectedAssetsModel *model in self.selectedAssetModels) {
+//            [photos addObject:model.selectedImage];
+//        }
+//        TZImagePickerController * imagePicker = [[TZImagePickerController alloc]initWithSelectedAssets:self.selectedAsset selectedPhotos:photos.copy index:indexPath.row];
+//        imagePicker.allowCrop = YES;
+//        
+//        [self presentViewController:imagePicker animated:YES completion:nil];
+        
+        //图片查看器
+        
         NSMutableArray * photos = [NSMutableArray array];
-        for (GLSelectedAssetsModel *model in self.selectedAssetModels) {
+        for (GLSelectedAssetsModel * model in self.selectedAssetModels) {
             [photos addObject:model.selectedImage];
         }
-        TZImagePickerController * imagePicker = [[TZImagePickerController alloc]initWithSelectedAssets:self.selectedAsset selectedPhotos:photos.copy index:indexPath.row];
-        imagePicker.allowCrop = YES;
         
-        [self presentViewController:imagePicker animated:YES completion:nil];
+        photos = [NSArray arrayWithArray:[IDMPhoto photosWithImages:photos isWifi:[Reachability isEnableWIFI]]].mutableCopy;
+        TZTestCell * cell = (TZTestCell *)[collectionView cellForItemAtIndexPath:indexPath];
+        // Create and setup browser
+        IDMPhotoBrowser *browser = [[IDMPhotoBrowser alloc] initWithPhotos:photos animatedFromView:cell]; // using initWithPhotos:animatedFromView: method to use the zoom-in animation
+        //    browser.delegate = self;
+        if ([Reachability isEnableWIFI]) {
+            browser.seePhooButtonIsHidden = YES;
+        }
+        browser.displayActionButton = NO;
+        browser.displayCounterLabel = YES;
+        
+        browser.scaleImage = cell.imageView.image;
+        //    browser.actionButtonTitles = @[@"Option 1"];
+        [browser setInitialPageIndex:indexPath.row];
+        
+        [self presentViewController:browser animated:YES completion:nil];
     }
 }
 
