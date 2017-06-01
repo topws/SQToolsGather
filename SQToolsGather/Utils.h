@@ -9,12 +9,21 @@
 #import <UIKit/UIKit.h>
 
 @interface Utils : NSObject
+
 //16进制 颜色
 + (UIColor *) colorWithHexString: (NSString *) stringToConvert;
+
+
+#pragma mark -
+#pragma mark   ==============屏幕相关==============
 //截屏
 + (UIImage *) snapshotScreenInView:(UIImage *)oldImage;
+//是否是横屏
++ (BOOL) isLandscape;
+
 //获取代码运行的时间
 + (void)getCodeRunTime;
+
 //是否 WiFi
 +(BOOL)isWifi;
 @end

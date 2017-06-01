@@ -78,7 +78,14 @@
     
     return image;
 }
-
++(BOOL)isLandscape{
+    //判断 是否是 横屏
+    if ([[UIDevice currentDevice] orientation] ==UIDeviceOrientationLandscapeLeft ||[[UIDevice currentDevice] orientation] == UIDeviceOrientationLandscapeRight) {
+        return YES;
+    }else{
+        return NO;
+    }
+}
 +(BOOL)isWifi{
     return [Reachability isEnableWIFI];
 }
