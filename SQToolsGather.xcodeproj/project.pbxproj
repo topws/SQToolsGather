@@ -27,6 +27,8 @@
 		FC5A91B21EDE6979009D80F8 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = FC5A91B11EDE6979009D80F8 /* Reachability.m */; };
 		FC83FF3F1ED8389100751169 /* PagingCollectionViewLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = FC83FF3B1ED8389100751169 /* PagingCollectionViewLayout.m */; };
 		FC83FF401ED8389100751169 /* UIView+FrameExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = FC83FF3E1ED8389100751169 /* UIView+FrameExtension.m */; };
+		FCAA74351EE6AF94001EB19A /* TSShareHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = FCAA74341EE6AF94001EB19A /* TSShareHelper.m */; };
+		FCAA74381EE6AFB8001EB19A /* SystemShareDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FCAA74371EE6AFB8001EB19A /* SystemShareDemoViewController.m */; };
 		FCABEDF61ED56C6300755BFC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FCABEDF51ED56C6300755BFC /* main.m */; };
 		FCABEE011ED56C6300755BFC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FCABEE001ED56C6300755BFC /* Assets.xcassets */; };
 		FCABEE0F1ED56C6300755BFC /* SQToolsGatherTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FCABEE0E1ED56C6300755BFC /* SQToolsGatherTests.m */; };
@@ -121,6 +123,10 @@
 		FC83FF3B1ED8389100751169 /* PagingCollectionViewLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PagingCollectionViewLayout.m; sourceTree = "<group>"; };
 		FC83FF3D1ED8389100751169 /* UIView+FrameExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+FrameExtension.h"; sourceTree = "<group>"; };
 		FC83FF3E1ED8389100751169 /* UIView+FrameExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+FrameExtension.m"; sourceTree = "<group>"; };
+		FCAA74331EE6AF94001EB19A /* TSShareHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSShareHelper.h; sourceTree = "<group>"; };
+		FCAA74341EE6AF94001EB19A /* TSShareHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSShareHelper.m; sourceTree = "<group>"; };
+		FCAA74361EE6AFB8001EB19A /* SystemShareDemoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SystemShareDemoViewController.h; sourceTree = "<group>"; };
+		FCAA74371EE6AFB8001EB19A /* SystemShareDemoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SystemShareDemoViewController.m; sourceTree = "<group>"; };
 		FCABEDF11ED56C6300755BFC /* SQToolsGather.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SQToolsGather.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FCABEDF51ED56C6300755BFC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		FCABEE001ED56C6300755BFC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -299,6 +305,7 @@
 				FCABEE401ED56D1E00755BFC /* Utils.m */,
 				FC5A91B01EDE6979009D80F8 /* Reachability.h */,
 				FC5A91B11EDE6979009D80F8 /* Reachability.m */,
+				FCAA74321EE6AF75001EB19A /* 系统分享 */,
 				FC83FF391ED8389100751169 /* UICollectionView水平布局（cell横向添加） */,
 				FC83FF3C1ED8389100751169 /* UIView分类 */,
 			);
@@ -321,6 +328,17 @@
 				FC83FF3E1ED8389100751169 /* UIView+FrameExtension.m */,
 			);
 			path = "UIView分类";
+			sourceTree = "<group>";
+		};
+		FCAA74321EE6AF75001EB19A /* 系统分享 */ = {
+			isa = PBXGroup;
+			children = (
+				FCAA74331EE6AF94001EB19A /* TSShareHelper.h */,
+				FCAA74341EE6AF94001EB19A /* TSShareHelper.m */,
+				FCAA74361EE6AFB8001EB19A /* SystemShareDemoViewController.h */,
+				FCAA74371EE6AFB8001EB19A /* SystemShareDemoViewController.m */,
+			);
+			path = "系统分享";
 			sourceTree = "<group>";
 		};
 		FCABEDE81ED56C6300755BFC = {
@@ -765,6 +783,7 @@
 				FC5A91AB1EDE610C009D80F8 /* IDMTapDetectingImageView.m in Sources */,
 				FC5A91901EDE60E2009D80F8 /* SQImagePickerViewController.m in Sources */,
 				FCABEE481ED5873900755BFC /* SQDrawViewTools.m in Sources */,
+				FCAA74351EE6AF94001EB19A /* TSShareHelper.m in Sources */,
 				FC5A91A81EDE610C009D80F8 /* IDMPhoto.m in Sources */,
 				FCABEE8D1ED67D1400755BFC /* YZTextAttachment.m in Sources */,
 				FCABEE7C1ED67D1400755BFC /* TFHpple.m in Sources */,
@@ -772,6 +791,7 @@
 				FCABEE3C1ED56CF300755BFC /* SQMeViewController.m in Sources */,
 				FCABEE871ED67D1400755BFC /* YZEmotionCell.m in Sources */,
 				FCABEE371ED56CF300755BFC /* AppDelegate.m in Sources */,
+				FCAA74381EE6AFB8001EB19A /* SystemShareDemoViewController.m in Sources */,
 				FCABEE381ED56CF300755BFC /* SQBaseNavgationController.m in Sources */,
 				FCABEE3D1ED56CF300755BFC /* SQTabBarController.m in Sources */,
 				FCABEE8B1ED67D1400755BFC /* YZEmotionManager.m in Sources */,
