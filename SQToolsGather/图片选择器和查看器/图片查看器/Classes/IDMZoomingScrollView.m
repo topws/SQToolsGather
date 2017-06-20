@@ -284,9 +284,13 @@
 
                 YYImageCache *cache = [YYWebImageManager sharedManager].cache;
                 UIImage *yyCurrentImage = [cache getImageForKey:[self _gifAppendingString:[currentPhoto.photoURL absoluteString]] withType:YYImageCacheTypeAll];
+                
+                
                 UIImage *memoryImage_sd = [[SDImageCache sharedImageCache] imageFromMemoryCacheForKey:[self _gifAppendingString:[currentPhoto.photoURL absoluteString]]];
                 UIImage *cacheImage_sd  = [[SDImageCache sharedImageCache] imageFromDiskCacheForKey:[self _gifAppendingString:[currentPhoto.photoURL absoluteString]]];
-                UIImage *memoryImage_sd_or = [[SDImageCache sharedImageCache] imageFromDiskCacheForKey:[self _judgeWebImageCache:[currentPhoto.photoURL absoluteString]]];
+                
+                UIImage *memoryImage_sd_or = [[SDImageCache sharedImageCache] imageFromMemoryCacheForKey:[self _judgeWebImageCache:[currentPhoto.photoURL absoluteString]]];
+                
                 UIImage *cacheImage_sd_or = [[SDImageCache sharedImageCache] imageFromDiskCacheForKey:[self _judgeWebImageCache:[currentPhoto.photoURL absoluteString]]];
 
                 if (!currentPhoto.isWifiLoadOriginalImage) {// 非wifi环境下，如果获取到缓存图则直接显示
