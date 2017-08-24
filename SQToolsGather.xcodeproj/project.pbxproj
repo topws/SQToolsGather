@@ -9,6 +9,9 @@
 /* Begin PBXBuildFile section */
 		1060A7587E9C691B2121A04A /* libPods-SQToolsGatherTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 461C629FC16BBCC562A16F5E /* libPods-SQToolsGatherTests.a */; };
 		5A2E1E9181555DD07D3D8248 /* libPods-SQToolsGatherUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9476BD3C5BF3D86610FC38EC /* libPods-SQToolsGatherUITests.a */; };
+		8FF715B61F4EAD8D00ACD22F /* KeychainHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FF715B31F4EAD8D00ACD22F /* KeychainHelper.m */; };
+		8FF715B71F4EAD8D00ACD22F /* KeychainIDFA.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FF715B51F4EAD8D00ACD22F /* KeychainIDFA.m */; };
+		8FF715BA1F4EADAA00ACD22F /* KeychainIDFV.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FF715B91F4EADAA00ACD22F /* KeychainIDFV.m */; };
 		B65C10F49FFE8DAD16EB952C /* libPods-SQToolsGather.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D549B4E18DDDF55D9AB14A2A /* libPods-SQToolsGather.a */; };
 		FC5A918E1EDE60E2009D80F8 /* GLSelectedAssetsModel.m in Sources */ = {isa = PBXBuildFile; fileRef = FC5A91871EDE60E2009D80F8 /* GLSelectedAssetsModel.m */; };
 		FC5A918F1EDE60E2009D80F8 /* LxGridViewFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = FC5A91891EDE60E2009D80F8 /* LxGridViewFlowLayout.m */; };
@@ -87,6 +90,12 @@
 		45F2746A4874774F104AA8AF /* Pods-SQToolsGatherTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SQToolsGatherTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SQToolsGatherTests/Pods-SQToolsGatherTests.debug.xcconfig"; sourceTree = "<group>"; };
 		461C629FC16BBCC562A16F5E /* libPods-SQToolsGatherTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SQToolsGatherTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		81A783EC70EC79F865045D92 /* Pods-SQToolsGatherUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SQToolsGatherUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SQToolsGatherUITests/Pods-SQToolsGatherUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		8FF715B21F4EAD8D00ACD22F /* KeychainHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeychainHelper.h; sourceTree = "<group>"; };
+		8FF715B31F4EAD8D00ACD22F /* KeychainHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeychainHelper.m; sourceTree = "<group>"; };
+		8FF715B41F4EAD8D00ACD22F /* KeychainIDFA.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeychainIDFA.h; sourceTree = "<group>"; };
+		8FF715B51F4EAD8D00ACD22F /* KeychainIDFA.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeychainIDFA.m; sourceTree = "<group>"; };
+		8FF715B81F4EADAA00ACD22F /* KeychainIDFV.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeychainIDFV.h; sourceTree = "<group>"; };
+		8FF715B91F4EADAA00ACD22F /* KeychainIDFV.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeychainIDFV.m; sourceTree = "<group>"; };
 		9476BD3C5BF3D86610FC38EC /* libPods-SQToolsGatherUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SQToolsGatherUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BB3AFEC9B0E8614BAAB9F701 /* Pods-SQToolsGather.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SQToolsGather.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SQToolsGather/Pods-SQToolsGather.debug.xcconfig"; sourceTree = "<group>"; };
 		C66533CCC239158B6B907FF2 /* Pods-SQToolsGather.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SQToolsGather.release.xcconfig"; path = "Pods/Target Support Files/Pods-SQToolsGather/Pods-SQToolsGather.release.xcconfig"; sourceTree = "<group>"; };
@@ -237,6 +246,27 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		8FF715B01F4EAD6000ACD22F /* Keychain + IDFA or IDFV */ = {
+			isa = PBXGroup;
+			children = (
+				8FF715B11F4EAD8D00ACD22F /* KeychainIDFA */,
+			);
+			path = "Keychain + IDFA or IDFV";
+			sourceTree = "<group>";
+		};
+		8FF715B11F4EAD8D00ACD22F /* KeychainIDFA */ = {
+			isa = PBXGroup;
+			children = (
+				8FF715B21F4EAD8D00ACD22F /* KeychainHelper.h */,
+				8FF715B31F4EAD8D00ACD22F /* KeychainHelper.m */,
+				8FF715B41F4EAD8D00ACD22F /* KeychainIDFA.h */,
+				8FF715B51F4EAD8D00ACD22F /* KeychainIDFA.m */,
+				8FF715B81F4EADAA00ACD22F /* KeychainIDFV.h */,
+				8FF715B91F4EADAA00ACD22F /* KeychainIDFV.m */,
+			);
+			path = KeychainIDFA;
+			sourceTree = "<group>";
+		};
 		FB6E126CD197AB1CC9445533 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -374,7 +404,7 @@
 				FCABEE341ED56CF300755BFC /* SQMeViewController.m */,
 				FCABEE351ED56CF300755BFC /* SQTabBarController.h */,
 				FCABEE361ED56CF300755BFC /* SQTabBarController.m */,
-				FCABEE8E1ED6898400755BFC /* 归档和解档 */,
+				8FF715B01F4EAD6000ACD22F /* Keychain + IDFA or IDFV */,
 				FCABEE571ED67CFE00755BFC /* 表情键盘（内含HTML表情解析） */,
 				FCABEE451ED586EF00755BFC /* 图形绘制 */,
 				FCABEE491ED59B4500755BFC /* 图片选择器和查看器 */,
@@ -495,13 +525,6 @@
 			);
 			name = "HMTL解析";
 			path = Classes;
-			sourceTree = "<group>";
-		};
-		FCABEE8E1ED6898400755BFC /* 归档和解档 */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = "归档和解档";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -784,7 +807,9 @@
 				FC5A91901EDE60E2009D80F8 /* SQImagePickerViewController.m in Sources */,
 				FCABEE481ED5873900755BFC /* SQDrawViewTools.m in Sources */,
 				FCAA74351EE6AF94001EB19A /* TSShareHelper.m in Sources */,
+				8FF715BA1F4EADAA00ACD22F /* KeychainIDFV.m in Sources */,
 				FC5A91A81EDE610C009D80F8 /* IDMPhoto.m in Sources */,
+				8FF715B61F4EAD8D00ACD22F /* KeychainHelper.m in Sources */,
 				FCABEE8D1ED67D1400755BFC /* YZTextAttachment.m in Sources */,
 				FCABEE7C1ED67D1400755BFC /* TFHpple.m in Sources */,
 				FC5A918E1EDE60E2009D80F8 /* GLSelectedAssetsModel.m in Sources */,
@@ -803,6 +828,7 @@
 				FCABEDF61ED56C6300755BFC /* main.m in Sources */,
 				FCABEE861ED67D1400755BFC /* UITextView+YZEmotion.m in Sources */,
 				FCABEE7F1ED67D1400755BFC /* EmojiObject.m in Sources */,
+				8FF715B71F4EAD8D00ACD22F /* KeychainIDFA.m in Sources */,
 				FC5A91911EDE60E2009D80F8 /* TZTestCell.m in Sources */,
 				FCABEE391ED56CF300755BFC /* SQBaseViewController.m in Sources */,
 				FCABEE851ED67D1400755BFC /* UITextField+YZEmotion.m in Sources */,

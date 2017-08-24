@@ -80,6 +80,7 @@
         [nameLB sizeToFit];
         nameLB.textAlignment = NSTextAlignmentCenter;
         
+        //开启图形上下文进行绘制
         UIGraphicsBeginImageContextWithOptions(nameLB.bounds.size, NO, [UIScreen mainScreen].scale);
         CGRect rect = CGRectMake(0, 0, nameLB.bounds.size.width, nameLB.bounds.size.height);
         [nameLB drawViewHierarchyInRect:rect afterScreenUpdates:YES];
